@@ -1,0 +1,14 @@
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:4:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’
+    4 | void scanCallback[34m[K([m[Kconst[01;31m[K [m[K[32m[Ksensor_msgs[m[K::LaserScan::&msg)
+      |                  [34m[K~[m[K     [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+      |                        [32m[K)[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:4:25:[m[K [01;31m[Kerror: [m[Kexpected initializer
+    4 | void scanCallback(const [01;31m[Ksensor_msgs[m[K::LaserScan::&msg)
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:15:63:[m[K [01;31m[Kerror: [m[K‘[01m[KscanCallback[m[K’ was not declared in this scope
+   15 |   ros::Subscriber subscriber = nodeHandle.subscribe("scan",10,[01;31m[KscanCallback[m[K);
+      |                                                               [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:63: CMakeFiles/smb_highlevel_controller.dir/src/smb_highlevel_controller_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

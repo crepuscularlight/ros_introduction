@@ -1,0 +1,8 @@
+prefix=/home/ros/smb_ws_optional/devel/.private/smb_highlevel_controller1
+
+Name: smb_highlevel_controller1
+Description: Description of smb_highlevel_controller1
+Version: 0.1.0
+Cflags: -I/home/ros/smb_ws_optional/src/smb_highlevel_controller1/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

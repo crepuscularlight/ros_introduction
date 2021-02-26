@@ -1,0 +1,27 @@
+
+
+<launch>
+  <node pkg="smb_highlevel_controller" type="smb_highlevel_controller" 
+    	name="smb_highlevel_controller" output="screen" launch-prefix='gnome-terminal --command' >
+    	<rosparam command="load" 
+        	file="$(find smb_highlevel_controller)/config/config.yaml"/>
+	</node>
+    
+    <include file="$(find smb_gazebo)/launch/smb_gazebo.launch">
+    
+        <arg name="world_file" value="/usr/share/gazebo-11/worlds/actor.world"/>
+		<arg name="laser_enabled" value="true"/>
+    </include>
+    <!-- node for the teleop_twist_keyboard-->
+ 
+ 
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop" output="screen">
+    <remap from="cmd_vel" to="cmd_vel"/>
+  </node>
+
+
+
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find smb_highlevel_controller/rviz/config_file.rviz" >
+  </node>
+
+</launch>

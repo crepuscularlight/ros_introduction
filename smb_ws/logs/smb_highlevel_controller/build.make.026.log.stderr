@@ -1,0 +1,7 @@
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:[m[K In function ‘[01m[Kvoid scanCallback(const LaserScan&)[m[K’:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:10:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst LaserScan[m[K’ {aka ‘[01m[Kconst struct sensor_msgs::LaserScan_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksize[m[K’
+   10 |  int length=msg.[01;31m[Ksize[m[K();
+      |                 [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:63: CMakeFiles/smb_highlevel_controller.dir/src/smb_highlevel_controller_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

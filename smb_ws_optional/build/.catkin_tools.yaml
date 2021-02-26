@@ -1,0 +1,6 @@
+devel_space: /home/ros/smb_ws_optional/devel
+install: false
+install_space: /home/ros/smb_ws_optional/install
+profile: default
+source_space: /home/ros/smb_ws_optional/src
+workspace: /home/ros/smb_ws_optional

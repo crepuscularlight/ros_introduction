@@ -1,0 +1,75 @@
+In file included from [01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:2[m[K:
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+   26 |  void topicCallback1(const sensor_msgs::[01;31m[KPointCloud2[m[K::ConstPtr &msg)
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   26 |  void topicCallback1(const sensor_msgs::PointCloud2::ConstPtr [01;31m[K&[m[Kmsg)
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   26 |  void topicCallback1[34m[K([m[Kconst sensor_msgs::PointCloud2::ConstPtr[01;31m[K [m[K[32m[K&[m[Kmsg)
+      |                     [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                                              [32m[K)[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   26 |  void topicCallback1(const sensor_msgs::PointCloud2::ConstPtr [01;31m[K&[m[Kmsg)
+      |                                                               [01;31m[K^[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   26 |  void topicCallback1(const sensor_msgs::PointCloud2::ConstPtr &[01;31m[Kmsg[m[K)
+      |                                                                [01;31m[K^~~[m[K
+In file included from [01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:1[m[K:
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:41:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+   26 |  void topicCallback1(const sensor_msgs::[01;31m[KPointCloud2[m[K::ConstPtr &msg)
+      |                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:63:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   26 |  void topicCallback1(const sensor_msgs::PointCloud2::ConstPtr [01;31m[K&[m[Kmsg)
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   26 |  void topicCallback1[34m[K([m[Kconst sensor_msgs::PointCloud2::ConstPtr[01;31m[K [m[K[32m[K&[m[Kmsg)
+      |                     [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                                              [32m[K)[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   26 |  void topicCallback1(const sensor_msgs::PointCloud2::ConstPtr [01;31m[K&[m[Kmsg)
+      |                                                               [01;31m[K^[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:26:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+   26 |  void topicCallback1(const sensor_msgs::PointCloud2::ConstPtr &[01;31m[Kmsg[m[K)
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:21:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController::SmbHighlevelController(ros::NodeHandle&, int)[m[K’
+   21 | [01;31m[KSmbHighlevelController[m[K::SmbHighlevelController(ros::NodeHandle& nodeHandle,int x):nodeHandle_(nodeHandle)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:1[m[K:
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:10:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController::SmbHighlevelController(const smb_highlevel_controller::SmbHighlevelController&)[m[K’
+   10 | class [01;36m[KSmbHighlevelController[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:5:1:[m[K [01;36m[Knote: [m[K                ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController::SmbHighlevelController(ros::NodeHandle&)[m[K’
+    5 | [01;36m[KSmbHighlevelController[m[K::SmbHighlevelController(ros::NodeHandle& nodeHandle):nodeHandle_(nodeHandle)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:1[m[K:
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass smb_highlevel_controller::SmbHighlevelController[m[K’ defined here
+   10 | class [01;36m[KSmbHighlevelController[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:46:64:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+   46 | void SmbHighlevelController::topicCallback1(const sensor_msgs::[01;31m[KPointCloud2[m[K::ConstPtr &msg)
+      |                                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:46:86:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   46 | void SmbHighlevelController::topicCallback1(const sensor_msgs::PointCloud2::ConstPtr [01;31m[K&[m[Kmsg)
+      |                                                                                      [01;31m[K^[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:46:85:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+   46 | void SmbHighlevelController::topicCallback1[34m[K([m[Kconst sensor_msgs::PointCloud2::ConstPtr[01;31m[K [m[K[32m[K&[m[Kmsg)
+      |                                            [34m[K~[m[K                                        [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                                     [32m[K)[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:46:87:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   46 | void SmbHighlevelController::topicCallback1(const sensor_msgs::PointCloud2::ConstPtr &[01;31m[Kmsg[m[K)
+      |                                                                                       [01;31m[K^~~[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:34:52:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController smbHighlevelController[m[K’
+   34 |   smb_highlevel_controller::SmbHighlevelController [01;31m[KsmbHighlevelController[m[K(nodeHandle1,1);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/smb_ws_optional/src/smb_highlevel_controller/src/smb_highlevel_controller_node.cpp:33:52:[m[K [01;36m[Knote: [m[K‘[01m[Ksmb_highlevel_controller::SmbHighlevelController smbHighlevelController[m[K’ previously declared here
+   33 |   smb_highlevel_controller::SmbHighlevelController [01;36m[KsmbHighlevelController[m[K(nodeHandle);
+      |                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:63: CMakeFiles/smb_highlevel_controller.dir/src/smb_highlevel_controller_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:76: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

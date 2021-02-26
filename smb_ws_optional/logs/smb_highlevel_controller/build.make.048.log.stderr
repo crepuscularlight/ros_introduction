@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/smb_highlevel_controller.dir/src/smb_highlevel_controller_node.cpp.o: in function `main.cold':
+smb_highlevel_controller_node.cpp:(.text.unlikely+0x1e): undefined reference to `laser_scan::LaserScan::~LaserScan()'
+/usr/bin/ld: CMakeFiles/smb_highlevel_controller.dir/src/smb_highlevel_controller_node.cpp.o: in function `main':
+smb_highlevel_controller_node.cpp:(.text.startup+0x19a): undefined reference to `laser_scan::LaserScan::LaserScan(ros::NodeHandle&)'
+/usr/bin/ld: smb_highlevel_controller_node.cpp:(.text.startup+0x1a7): undefined reference to `laser_scan::LaserScan::~LaserScan()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:116: /home/ros/smb_ws_optional/devel/.private/smb_highlevel_controller/lib/smb_highlevel_controller/smb_highlevel_controller] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

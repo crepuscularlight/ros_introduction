@@ -1,0 +1,6 @@
+Warning: Cannot symlink from /home/ros/smb_ws_optional/devel/.private/hector_gazebo_worlds/lib/pkgconfig/hector_gazebo_worlds.pc to existing file /home/ros/smb_ws_optional/devel/lib/pkgconfig/hector_gazebo_worlds.pc
+Warning: Source hash: cc4695d5db6656d91166ddfdda0487a8
+Warning: Dest hash: 80d6c4a90206b35dcb88f7ffd7f89423
+Warning: Cannot symlink from /home/ros/smb_ws_optional/devel/.private/hector_gazebo_worlds/share/hector_gazebo_worlds/cmake/hector_gazebo_worldsConfig.cmake to existing file /home/ros/smb_ws_optional/devel/share/hector_gazebo_worlds/cmake/hector_gazebo_worldsConfig.cmake
+Warning: Source hash: ccbaf2004a8963bb183cfef9d78b3547
+Warning: Dest hash: 2c6cb20e9c6da871f38285ae5b0293e3

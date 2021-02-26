@@ -1,0 +1,4 @@
+Symlinking /home/ros/smb_ws_optional/devel/lib/pkgconfig/smb_highlevel_controller1.pc
+Symlinking /home/ros/smb_ws_optional/devel/lib/smb_highlevel_controller1/smb_highlevel_controller1
+Symlinking /home/ros/smb_ws_optional/devel/share/smb_highlevel_controller1/cmake/smb_highlevel_controller1Config.cmake
+Symlinking /home/ros/smb_ws_optional/devel/share/smb_highlevel_controller1/cmake/smb_highlevel_controller1Config-version.cmake

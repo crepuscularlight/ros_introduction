@@ -1,0 +1,24 @@
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:[m[K In constructor ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController::SmbHighlevelController(ros::NodeHandle&)[m[K’:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:19:4:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+   19 |    [01;31m[Ksubscriber_[m[K = nodeHandle.subscribe(topic, queue_size, SmbHighlevelController::topicCallback, this);
+      |    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:19:82:[m[K [01;31m[Kerror: [m[K‘[01m[KtopicCallback[m[K’ is not a member of ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController[m[K’
+   19 |    subscriber_ = nodeHandle.subscribe(topic, queue_size, SmbHighlevelController::[01;31m[KtopicCallback[m[K, this);
+      |                                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:[m[K At global scope:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:25:50:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   25 | void SmbHighlevelController::topicCallback(const [01;31m[Ksensor_msgs[m[K::LaserScan::ConstPtr& msg)
+      |                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:25:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   25 | void SmbHighlevelController::topicCallback(const sensor_msgs::LaserScan[01;31m[K::[m[KConstPtr& msg)
+      |                                                                        [01;31m[K^~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:25:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   25 | void SmbHighlevelController::topicCallback[34m[K([m[Kconst sensor_msgs::LaserScan[01;31m[K:[m[K[32m[K:[m[KConstPtr& msg)
+      |                                           [34m[K~[m[K                            [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                        [32m[K)[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:25:72:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   25 | void SmbHighlevelController::topicCallback(const sensor_msgs::LaserScan[01;31m[K::[m[KConstPtr& msg)
+      |                                                                        [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:76: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

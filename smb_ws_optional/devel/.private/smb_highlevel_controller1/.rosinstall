@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros/smb_ws_optional/devel/.private/smb_highlevel_controller1/setup.sh
