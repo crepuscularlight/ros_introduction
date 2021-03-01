@@ -1,0 +1,109 @@
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:[m[K In constructor ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController::SmbHighlevelController(ros::NodeHandle&)[m[K’:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:18:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kp_gain[m[K’ was not declared in this scope
+   18 |    if (!nodeHandle.getParam("smb_highlevel_controller/p_gain", [01;31m[Kp_gain[m[K)) {
+      |                                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:22:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_dot[m[K’ was not declared in this scope
+   22 |     if (!nodeHandle.getParam("smb_highlevel_controller/x_dot", [01;31m[Kx_dot[m[K)) {
+      |                                                                [01;31m[K^~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:28:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+   28 |    [01;31m[Kpublisher_[m[K = nodeHandle.advertise<geometry_msgs::Twist>("/cmd_vel", 1);
+      |    [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:28:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ was not declared in this scope
+   28 |    publisher_ = nodeHandle.advertise<[01;31m[Kgeometry_msgs[m[K::Twist>("/cmd_vel", 1);
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:28:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   28 |    publisher_ = nodeHandle.[01;31m[Kadvertise<geometry_msgs::Twist>[m[K("/cmd_vel", 1);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:28:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [9], int)[m[K’
+   28 |    publisher_ = nodeHandle.advertise<geometry_msgs::Twist>("/cmd_vel", 1[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:3[m[K,
+                 from [01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:28:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |    publisher_ = nodeHandle.advertise<geometry_msgs::Twist>("/cmd_vel", 1[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:3[m[K,
+                 from [01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:28:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |    publisher_ = nodeHandle.advertise<geometry_msgs::Twist>("/cmd_vel", 1[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:30:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pub_[m[K’ was not declared in this scope
+   30 |    [01;31m[Kvis_pub_[m[K = nodeHandle.advertise<visualization_msgs::Marker>("/visualization_marker", 0);
+      |    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:30:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ was not declared in this scope
+   30 |    vis_pub_ = nodeHandle.advertise<[01;31m[Kvisualization_msgs[m[K::Marker>("/visualization_marker", 0);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:30:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   30 |    vis_pub_ = nodeHandle.[01;31m[Kadvertise<visualization_msgs::Marker>[m[K("/visualization_marker", 0);
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:30:90:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [22], int)[m[K’
+   30 |    vis_pub_ = nodeHandle.advertise<visualization_msgs::Marker>("/visualization_marker", 0[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:3[m[K,
+                 from [01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:30:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |    vis_pub_ = nodeHandle.advertise<visualization_msgs::Marker>("/visualization_marker", 0[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/include/smb_highlevel_controller/SmbHighlevelController.hpp:3[m[K,
+                 from [01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:30:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   30 |    vis_pub_ = nodeHandle.advertise<visualization_msgs::Marker>("/visualization_marker", 0[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:[m[K In member function ‘[01m[Kvoid smb_highlevel_controller::SmbHighlevelController::topicCallback(const ConstPtr&)[m[K’:
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:43:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct sensor_msgs::LaserScan_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kmax_range[m[K’
+   43 |    float min_dis = msg->[01;31m[Kmax_range[m[K;
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:71:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kp_gain[m[K’ is not a member of ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController[m[K’
+   71 |    angle_dot = SmbHighlevelController::[01;31m[Kp_gain[m[K * (0 - rad);
+      |                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:72:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_dot[m[K’ is not a member of ‘[01m[Ksmb_highlevel_controller::SmbHighlevelController[m[K’
+   72 |    x_dot = SmbHighlevelController::[01;31m[Kx_dot[m[K;
+      |                                    [01;31m[K^~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:76:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+   76 |      [01;31m[Kgeometry_msgs[m[K::Twist base_cmd;
+      |      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:77:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kbase_cmd[m[K’ was not declared in this scope
+   77 |      [01;31m[Kbase_cmd[m[K.linear.x = x_dot;
+      |      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:80:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope
+   80 |      [01;31m[Kpublisher_[m[K.publish(base_cmd);
+      |      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:83:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ has not been declared
+   83 |      [01;31m[Kvisualization_msgs[m[K::Marker marker;
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:84:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker[m[K’ was not declared in this scope
+   84 |      [01;31m[Kmarker[m[K.header.frame_id = "base_link";
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:88:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ has not been declared
+   88 |      marker.type = [01;31m[Kvisualization_msgs[m[K::Marker::SPHERE;
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:89:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ has not been declared
+   89 |      marker.action = [01;31m[Kvisualization_msgs[m[K::Marker::ADD;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/Workspaces/smb_ws/src/smb_highlevel_controller/src/SmbHighlevelController.cpp:106:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvis_pub_[m[K’ was not declared in this scope
+  106 |      [01;31m[Kvis_pub_[m[K.publish(marker);
+      |      [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/smb_highlevel_controller.dir/build.make:76: CMakeFiles/smb_highlevel_controller.dir/src/SmbHighlevelController.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/smb_highlevel_controller.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

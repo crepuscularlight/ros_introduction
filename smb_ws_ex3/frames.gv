@@ -1,0 +1,17 @@
+digraph G {
+"base_link" -> "base_inertia"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"odom" -> "base_link"[label=" Broadcaster: /gazebo\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 642.226\nOldest transform: 637.246\n"];
+"base_link" -> "imu_link"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "lidar_mount_link"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "rslidar_base_link"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"rslidar_base_link" -> "rslidar"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "top"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "LF_WHEEL"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 642.226\nOldest transform: 637.246\n"];
+"base_link" -> "LH_WHEEL"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 642.226\nOldest transform: 637.246\n"];
+"base_link" -> "RF_WHEEL"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 642.226\nOldest transform: 637.246\n"];
+"base_link" -> "RH_WHEEL"[label=" Broadcaster: /smb_robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 642.226\nOldest transform: 637.246\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 642.233"[ shape=plaintext ] ;
+}->"odom";
+}
